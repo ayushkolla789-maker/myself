@@ -13,6 +13,8 @@ text-align:center;
 
 }
 
+/* Header */
+
 header{
 
 display:flex;
@@ -26,11 +28,9 @@ backdrop-filter:blur(10px);
 
 .logo{
 
-font-family:'Orbitron',sans-serif;
-font-size:32px;
-font-weight:900;
+font-size:28px;
+font-weight:700;
 color:#00f7ff;
-letter-spacing:2px;
 
 }
 
@@ -39,7 +39,6 @@ nav a{
 margin:0 15px;
 text-decoration:none;
 color:white;
-font-weight:500;
 transition:0.3s;
 
 }
@@ -50,23 +49,26 @@ color:#00f7ff;
 
 }
 
+/* Hero */
+
 .hero{
 
 padding:140px 20px;
 
 }
 
-.big-name{
+.name{
 
-font-family:'Orbitron',sans-serif;
-font-size:80px;
-font-weight:900;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size:110px;
+letter-spacing:4px;
+
 color:#00f7ff;
 
 text-shadow:
 0 0 10px #00f7ff,
-0 0 20px #00f7ff,
-0 0 40px #00f7ff;
+0 0 25px #00f7ff,
+0 0 50px #00f7ff;
 
 }
 
@@ -80,7 +82,7 @@ color:#67e8f9;
 
 .subtitle{
 
-margin-top:20px;
+margin-top:15px;
 font-size:20px;
 opacity:0.8;
 
@@ -88,7 +90,7 @@ opacity:0.8;
 
 .btn{
 
-margin-top:40px;
+margin-top:35px;
 padding:15px 40px;
 font-size:18px;
 border:none;
@@ -103,9 +105,11 @@ transition:0.3s;
 .btn:hover{
 
 transform:scale(1.1);
-box-shadow:0 0 20px #00f7ff;
+box-shadow:0 0 25px #00f7ff;
 
 }
+
+/* Sections */
 
 section{
 
@@ -115,12 +119,13 @@ padding:100px 10%;
 
 h2{
 
-font-family:'Orbitron',sans-serif;
-font-size:40px;
-margin-bottom:30px;
+font-size:42px;
+margin-bottom:25px;
 color:#00f7ff;
 
 }
+
+/* Cards */
 
 .grid{
 
@@ -148,6 +153,8 @@ color:black;
 
 }
 
+/* GitHub button */
+
 .github-btn{
 
 display:inline-block;
@@ -159,6 +166,8 @@ color:black;
 text-decoration:none;
 
 }
+
+/* Footer */
 
 footer{
 
