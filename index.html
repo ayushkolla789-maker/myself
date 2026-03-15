@@ -8,7 +8,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Impact&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section class="hero">
+    <div id="particles-js" class="particles-bg"></div>
+    
+    <nav class="navbar">
+        <div class="logo">AYUSH KOLLA</div>
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
         <h1 class="name">AYUSH</h1>
         <h2 class="surname">KOLLA</h2>
         <div class="interests">
@@ -19,29 +30,39 @@
         </div>
     </section>
 
-    <section class="projects">
+    <section id="projects" class="projects">
         <h2>Projects</h2>
         <div class="project-grid">
-            <div class="project-card">
+            <div class="project-card" onclick="openModal('Farmer Forward', 'Cool design farmer support platform with responsive UI and agritech features.')">
                 <h3>1. Farmer Forward</h3>
-                <p>Cool design farmer support platform with responsive UI, agritech features, and modern styling.[cite:3]</p>
+                <p>Click for details</p>
             </div>
-            <div class="project-card">
+            <div class="project-card" onclick="openModal('B-TRADE', 'Trading app with full-stack implementation.')">
                 <h3>2. B-TRADE</h3>
-                <p>Trading application with full-stack implementation and user-friendly workflows.</p>
+                <p>Click for details</p>
             </div>
         </div>
     </section>
 
-    <section class="hobbies">
+    <section id="hobbies" class="hobbies">
         <h2>Hobbies</h2>
         <ul class="hobby-list">
-            <li>Badminton</li>
-            <li>Cricket</li>
-            <li>Basketball</li>
+            <li onclick="animateHobby(this)">Badminton</li>
+            <li onclick="animateHobby(this)">Cricket</li>
+            <li onclick="animateHobby(this)">Basketball</li>
         </ul>
     </section>
 
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-desc"></p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
