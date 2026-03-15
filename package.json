@@ -1,1 +1,12 @@
-{"name": "ayush-portfolio", "version": "1.0.0", "main": "server.js", "scripts": {"start": "node server.js"}, "dependencies": {"express": "^4.19.2"}}
+{
+  "name": "ayush-professional-website",
+  "version": "1.0.0",
+  "description": "Professional Website of Ayush Kolla",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
