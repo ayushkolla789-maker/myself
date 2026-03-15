@@ -1,68 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ayush Kolla - Professional Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Impact&display=swap" rel="stylesheet">
+
+<title>Ayush Kolla | Professional Website</title>
+
+<link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-    <div id="particles-js" class="particles-bg"></div>
-    
-    <nav class="navbar">
-        <div class="logo">AYUSH KOLLA</div>
-        <ul class="menu">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#hobbies">Hobbies</a></li>
-        </ul>
-    </nav>
 
-    <section id="home" class="hero">
-        <h1 class="name">AYUSH</h1>
-        <h2 class="surname">KOLLA</h2>
-        <div class="interests">
-            <span class="interest">Tech Enthusiast</span>
-            <span class="interest">Full Stack Developer</span>
-            <span class="interest">Game Designer</span>
-            <span class="interest">Entrepreneur</span>
-        </div>
-    </section>
+<div class="hero">
 
-    <section id="projects" class="projects">
-        <h2>Projects</h2>
-        <div class="project-grid">
-            <div class="project-card" onclick="openModal('Farmer Forward', 'Cool design farmer support platform with responsive UI and agritech features.')">
-                <h3>1. Farmer Forward</h3>
-                <p>Click for details</p>
-            </div>
-            <div class="project-card" onclick="openModal('B-TRADE', 'Trading app with full-stack implementation.')">
-                <h3>2. B-TRADE</h3>
-                <p>Click for details</p>
-            </div>
-        </div>
-    </section>
+<h1 class="name">AYUSH</h1>
+<h2 class="surname">KOLLA</h2>
 
-    <section id="hobbies" class="hobbies">
-        <h2>Hobbies</h2>
-        <ul class="hobby-list">
-            <li onclick="animateHobby(this)">Badminton</li>
-            <li onclick="animateHobby(this)">Cricket</li>
-            <li onclick="animateHobby(this)">Basketball</li>
-        </ul>
-    </section>
+<p class="tagline">
+Tech Enthusiast | Full Stack Developer | Game Designer | Entrepreneur
+</p>
 
-    <!-- Modal -->
-    <div id="modal" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal()">&times;</span>
-            <h2 id="modal-title"></h2>
-            <p id="modal-desc"></p>
-        </div>
-    </div>
+</div>
 
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script src="script.js"></script>
+
+<section class="section">
+
+<h2>My Interests</h2>
+
+<div class="cards">
+
+<div class="card">Tech Enthusiast</div>
+<div class="card">Full Stack Developer</div>
+<div class="card">Game Designer</div>
+<div class="card">Entrepreneur</div>
+
+</div>
+
+</section>
+
+
+
+<section class="section">
+
+<h2>Projects</h2>
+
+<div class="project">
+
+<h3>Farmer Forward</h3>
+<p>AI-powered smart agriculture platform helping farmers with crop diversification and smart insights.</p>
+
+</div>
+
+<div class="project">
+
+<h3>B-TRADE</h3>
+<p>A digital trading and business platform designed for modern entrepreneurs.</p>
+
+</div>
+
+</section>
+
+
+
+<section class="section">
+
+<h2>Hobbies</h2>
+
+<ul class="hobbies">
+
+<li>🏸 Badminton</li>
+<li>🏏 Cricket</li>
+<li>🏀 Basketball</li>
+
+</ul>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 Ayush Kolla</p>
+
+</footer>
+
+
 </body>
 </html>
